@@ -9,14 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@google/genai": "latest",
     "@supabase/supabase-js": "^2.49.8",
+    "copy-of-app": "file:",
     "react": "18.2.0",
-    "react-dom/client": "18.2.0",
-    "react-dom": "18.2.0",
-    "@google/genai": "latest"
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^4.5.0",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
   }
